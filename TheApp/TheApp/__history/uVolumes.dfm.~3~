@@ -1,0 +1,323 @@
+object frmVolume: TfrmVolume
+  Left = 0
+  Top = 0
+  Caption = 'Calculo de Volumes'
+  ClientHeight = 495
+  ClientWidth = 693
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  DesignSize = (
+    693
+    495)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblAlt: TLabel
+    Left = 24
+    Top = 14
+    Width = 288
+    Height = 25
+    Caption = 'Volume  de prisma retangular:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 84
+    Top = 48
+    Width = 17
+    Height = 23
+    Caption = 'PI'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 217
+    Top = 48
+    Width = 45
+    Height = 23
+    Caption = 'Raio'#178
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 138
+    Top = 111
+    Width = 49
+    Height = 23
+    Caption = 'Altura'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 352
+    Top = 17
+    Width = 288
+    Height = 25
+    Caption = 'Volume  de prisma retangular:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 396
+    Top = 48
+    Width = 17
+    Height = 23
+    Caption = 'PI'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 545
+    Top = 51
+    Width = 45
+    Height = 23
+    Caption = 'Raio'#178
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 466
+    Top = 114
+    Width = 49
+    Height = 23
+    Caption = 'Altura'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 200
+    Top = 249
+    Width = 288
+    Height = 25
+    Caption = 'Volume  de prisma retangular:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 393
+    Top = 283
+    Width = 45
+    Height = 23
+    Caption = 'Raio'#178
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 314
+    Top = 346
+    Width = 49
+    Height = 23
+    Caption = 'Altura'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object txtAlt: TEdit
+    Left = 24
+    Top = 69
+    Width = 137
+    Height = 33
+    Anchors = [akTop, akRight]
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 112
+    Top = 178
+    Width = 105
+    Height = 33
+    Caption = 'Verifica'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 167
+    Top = 69
+    Width = 145
+    Height = 33
+    Anchors = [akTop, akRight]
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 96
+    Top = 139
+    Width = 137
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Edit3: TEdit
+    Left = 352
+    Top = 72
+    Width = 137
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 440
+    Top = 181
+    Width = 105
+    Height = 33
+    Caption = 'Verifica'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Edit4: TEdit
+    Left = 495
+    Top = 72
+    Width = 145
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Edit5: TEdit
+    Left = 424
+    Top = 142
+    Width = 137
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Edit6: TEdit
+    Left = 200
+    Top = 304
+    Width = 137
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button3: TButton
+    Left = 288
+    Top = 413
+    Width = 105
+    Height = 33
+    Caption = 'Verifica'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Edit7: TEdit
+    Left = 343
+    Top = 304
+    Width = 145
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Edit8: TEdit
+    Left = 272
+    Top = 374
+    Width = 137
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 11
+  end
+end

@@ -1,0 +1,49 @@
+unit uCalculoIMC;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TFrmCalculoIMC = class(TForm)
+    lblAlt: TLabel;
+    txtAlt: TEdit;
+    btnVerifica: TButton;
+    lblPeso: TLabel;
+    txtPeso: TEdit;
+    lbl1: TLabel;
+    lbl2: TLabel;
+    lbl3: TLabel;
+    lbl4: TLabel;
+    lbl5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    procedure btnVerificaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmCalculoIMC: TFrmCalculoIMC;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmCalculoIMC.btnVerificaClick(Sender: TObject);
+var
+peso, alt : real;
+begin
+ if (peso / (alt * alt) < 18.5) then
+ begin
+
+ end;
+
+end;
+
+end.

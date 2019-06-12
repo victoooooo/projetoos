@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/07 22:05:45.000.015,=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/07 22:08:49.000.044,C:\Users\Aluno\Desktop\Theapp\uPrincipal.pas=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/07 22:08:49.000.044,C:\Users\Aluno\Desktop\Theapp\uPrincipal.dfm=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/05/07 22:08:52.000.375,C:\Users\Aluno\Desktop\Theapp\TheApp.dproj=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/05/14 21:37:50.000.536,=C:\Users\Aluno-E1\Desktop\TheApp\uTriangulo.pas</Transaction>
+    <Transaction>2019/05/14 21:37:50.000.432,=C:\Users\Aluno-E1\Desktop\TheApp\uTabuadas.pas</Transaction>
+    <Transaction>2019/05/14 22:12:08.000.408,=C:\Users\Aluno-E1\Desktop\TheApp\Unit1.pas</Transaction>
+    <Transaction>2019/05/14 22:13:36.000.678,C:\Users\Aluno-E1\Desktop\TheApp\Unit1.pas=C:\Users\Aluno-E1\Desktop\TheApp\uCalculoIMC.pas</Transaction>
+    <Transaction>2019/05/14 22:13:36.000.678,C:\Users\Aluno-E1\Desktop\TheApp\Unit1.dfm=C:\Users\Aluno-E1\Desktop\TheApp\uCalculoIMC.dfm</Transaction>
+    <Transaction>2019/05/28 19:35:14.000.669,=G:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 19:37:55.000.024,G:\ETEC2019\1Modulo\Wagner\TheApp\uVolumes.dfm=G:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.dfm</Transaction>
+    <Transaction>2019/05/28 19:37:55.000.024,G:\ETEC2019\1Modulo\Wagner\TheApp\uVolumes.pas=G:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 21:39:45.000.337,=I:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 21:41:41.000.829,I:\ETEC2019\1Modulo\Wagner\TheApp\uBancoDados.dfm=I:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.dfm</Transaction>
+    <Transaction>2019/05/28 21:41:41.000.829,I:\ETEC2019\1Modulo\Wagner\TheApp\uBancoDados.pas=I:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 21:56:01.000.170,=I:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.pas</Transaction>
+    <Transaction>2019/05/28 22:00:06.000.794,I:\ETEC2019\1Modulo\Wagner\TheApp\uCadastroClientes.dfm=I:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.dfm</Transaction>
+    <Transaction>2019/05/28 22:00:06.000.794,I:\ETEC2019\1Modulo\Wagner\TheApp\uCadastroClientes.pas=I:\ETEC2019\1Modulo\Wagner\TheApp\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

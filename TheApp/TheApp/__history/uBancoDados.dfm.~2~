@@ -1,0 +1,14 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 277
+  Width = 605
+  object conecxao: TFDConnection
+    Params.Strings = (
+      'Database=siscom'
+      'DriverID=MySQL'
+      'Server=localhost'
+      'User_Name=root')
+    Left = 232
+    Top = 104
+  end
+end

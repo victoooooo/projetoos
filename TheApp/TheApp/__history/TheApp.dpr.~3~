@@ -1,0 +1,22 @@
+program TheApp;
+
+
+
+
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {FrmPrincipal},
+  uTabuadas in 'uTabuadas.pas' {FrmTabuadas},
+  uTriangulo in 'uTriangulo.pas' {FrmTriangulo},
+  uCalculoIMC in 'uCalculoIMC.pas' {frmIMC};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPrincipal, FrmPrincipal);
+  Application.CreateForm(TfrmIMC, frmIMC);
+  Application.Run;
+end.
